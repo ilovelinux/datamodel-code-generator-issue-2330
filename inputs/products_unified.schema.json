@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/products_unified.schema.json",
+  "title": "Products",
+  "description": "The products in the catalog",
+  "type": "array",
+  "minLength": 1,
+  "maxLength": 10,
+  "items": {
+    "type": "string"
+  }
+}

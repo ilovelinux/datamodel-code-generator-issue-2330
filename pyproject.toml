@@ -1,0 +1,6 @@
+[tool.datamodel-codegen]
+# Options
+input = "inputs/"
+input-file-type = "jsonschema"
+output = "outputs/"
+output-model-type = "pydantic_v2.BaseModel"
